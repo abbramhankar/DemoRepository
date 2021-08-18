@@ -23,7 +23,7 @@ public class StaticDropdown {
 		WebElement staticdropdown = driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency"));
 		Select dropdown = new Select(staticdropdown);
 		
-		System.out.println(dropdown.);
+		//System.out.println(dropdown.);
 		
 		
 		
