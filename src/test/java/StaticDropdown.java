@@ -20,6 +20,7 @@ public class StaticDropdown {
 		
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 		
+		//Dropdown handling code
 		WebElement staticdropdown = driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency"));
 		Select dropdown = new Select(staticdropdown);
 		
